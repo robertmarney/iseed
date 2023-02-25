@@ -2,6 +2,7 @@
 
 namespace Orangehill\Iseed;
 
+
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
@@ -54,5 +55,6 @@ class IseedServiceProvider extends ServiceProvider
         }
 
         $this->app[ 'config' ]->set('iseed::config', $config);
+
     }
 }
